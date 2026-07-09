@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+venv/
+env/
+.env
+
+# Artifacts (trained models) - usually large, don't commit
+artifacts/*.pkl
+
+# Data (can be large / regenerated)
+data/raw/*.csv
+data/processed/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
