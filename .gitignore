@@ -8,7 +8,7 @@ wetenv/
 .env
 
 # Artifacts (trained models) - usually large, don't commit
-artifacts/*.pkl
+
 
 # Data (can be large / regenerated)
 data/raw/*.csv

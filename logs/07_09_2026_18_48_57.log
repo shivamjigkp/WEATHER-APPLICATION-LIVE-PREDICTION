@@ -1,0 +1,6 @@
+[2026-07-09 18:49:01,450] 20 root - INFO - ===== Rain Prediction Training Pipeline started =====
+[2026-07-09 18:49:01,451] 77 root - INFO - Starting data ingestion
+[2026-07-09 18:49:01,617] 84 root - INFO - Raw weather data saved at data\raw\weather_raw.csv
+[2026-07-09 18:49:02,127] 106 root - INFO - Rain features saved at data\processed\rain_features.csv
+[2026-07-09 18:49:03,669] 56 root - INFO - Rain model -> Accuracy: 0.584, Precision: 0.604, Recall: 0.436, F1: 0.506
+[2026-07-09 18:49:03,678] 28 root - INFO - ===== Rain Training Pipeline completed. Metrics: {'accuracy': 0.5837466615795498, 'precision': 0.603671706263499, 'recall': 0.4356975837879969, 'f1': 0.5061113626075147} =====

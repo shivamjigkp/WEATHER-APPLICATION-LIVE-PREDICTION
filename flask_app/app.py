@@ -12,6 +12,7 @@ adds the ML-powered endpoints on top of that:
 Run with: python flask_app/app.py   (from the project root)
 """
 import sys
+import os
 
 sys.path.append(".")  # allow `from src...` imports when run from project root
 
@@ -75,4 +76,5 @@ def check_anomaly():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)

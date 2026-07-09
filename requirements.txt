@@ -6,4 +6,5 @@ xgboost
 flask
 flask-cors
 dill
+gunicorn
 -e .

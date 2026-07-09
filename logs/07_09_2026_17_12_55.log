@@ -1,0 +1,80 @@
+[2026-07-09 17:12:55,530] 97 werkzeug - WARNING -  * Debugger is active!
+[2026-07-09 17:12:55,539] 97 werkzeug - INFO -  * Debugger PIN: 372-060-411
+[2026-07-09 18:07:55,046] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:07:55] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:07:55,049] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:07:55] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:07:55,057] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:07:55] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:07:55,576] 50 root - INFO - Anomaly check -> temp=33.879999999999995, month=7, z=0.76, anomaly=False
+[2026-07-09 18:07:55,577] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:07:55] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:07:58,356] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:08:02,166] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:08:06,099] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:08:06,104] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:08:06] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:08:06,109] 69 root - INFO - Temperature prediction: [31.244883]
+[2026-07-09 18:08:06,118] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:08:06] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:09,594] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:09] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:09,605] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:09] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:09,614] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:09] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:10,043] 50 root - INFO - Anomaly check -> temp=22.49000000000001, month=7, z=-2.13, anomaly=True
+[2026-07-09 18:10:10,047] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:10] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:12,440] 63 root - INFO - Fetched 211 hours of live weather history for lat=46.7406, lon=12.2797
+[2026-07-09 18:10:12,666] 69 root - INFO - Temperature prediction: [21.996334]
+[2026-07-09 18:10:12,668] 63 root - INFO - Fetched 211 hours of live weather history for lat=46.7406, lon=12.2797
+[2026-07-09 18:10:12,716] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:12] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:12,864] 56 root - INFO - Rain prediction: [0], probability: [0.21939293]
+[2026-07-09 18:10:12,865] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:12] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:21,964] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:21] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:22,270] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:22] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:22,275] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:22] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:22,821] 50 root - INFO - Anomaly check -> temp=33.860000000000014, month=7, z=0.75, anomaly=False
+[2026-07-09 18:10:22,822] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:22] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:24,838] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.5121, lon=79.6975
+[2026-07-09 18:10:24,973] 69 root - INFO - Temperature prediction: [30.637632]
+[2026-07-09 18:10:25,033] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:25] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:25,070] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.5121, lon=79.6975
+[2026-07-09 18:10:25,191] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:10:25,193] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:25] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:47,356] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:47] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:10:47,361] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:47] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:47,367] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:47] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:47,771] 50 root - INFO - Anomaly check -> temp=33.879999999999995, month=7, z=0.76, anomaly=False
+[2026-07-09 18:10:47,772] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:47] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:10:50,233] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:10:50,254] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:10:50,345] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:10:50,350] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:50] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:10:50,407] 69 root - INFO - Temperature prediction: [31.244883]
+[2026-07-09 18:10:50,414] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:10:50] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:17:51,221] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:17:51,238] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:17:51,258] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:17:51,326] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:17:51,340] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:17:51,354] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:17:51,693] 50 root - INFO - Anomaly check -> temp=33.89000000000004, month=7, z=0.76, anomaly=False
+[2026-07-09 18:17:51,694] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:17:51,775] 50 root - INFO - Anomaly check -> temp=33.89000000000004, month=7, z=0.76, anomaly=False
+[2026-07-09 18:17:51,775] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:51] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:17:54,197] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:17:54,198] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:17:54,211] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:17:54,262] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:17:54,433] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:17:54,437] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:54] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:17:54,583] 69 root - INFO - Temperature prediction: [31.244883]
+[2026-07-09 18:17:54,592] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:54] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:17:54,595] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:17:54,604] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:54] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:17:54,614] 69 root - INFO - Temperature prediction: [31.244883]
+[2026-07-09 18:17:54,625] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:17:54] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:23:12,352] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:12] "OPTIONS /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:23:12,356] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:12] "OPTIONS /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:23:12,362] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:12] "OPTIONS /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:23:12,807] 50 root - INFO - Anomaly check -> temp=33.89000000000004, month=7, z=0.76, anomaly=False
+[2026-07-09 18:23:12,808] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:12] "POST /check-anomaly HTTP/1.1" 200 -
+[2026-07-09 18:23:14,908] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:23:15,028] 69 root - INFO - Temperature prediction: [31.244883]
+[2026-07-09 18:23:15,036] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:15] "POST /predict-temperature HTTP/1.1" 200 -
+[2026-07-09 18:23:15,049] 63 root - INFO - Fetched 211 hours of live weather history for lat=26.4667, lon=80.35
+[2026-07-09 18:23:15,130] 56 root - INFO - Rain prediction: [0], probability: [0.26301765]
+[2026-07-09 18:23:15,131] 97 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2026 18:23:15] "POST /predict-rain HTTP/1.1" 200 -
+[2026-07-09 18:44:48,536] 97 werkzeug - INFO -  * Detected change in 'C:\\Users\\shiva\\OneDrive\\Desktop\\coding by shivam\\gitrepoall\\Weather-Intelligence-App\\flask_app\\app.py', reloading

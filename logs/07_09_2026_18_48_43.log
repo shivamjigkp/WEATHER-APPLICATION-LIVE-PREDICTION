@@ -1,0 +1,6 @@
+[2026-07-09 18:48:48,133] 20 root - INFO - ===== Temperature Forecasting Training Pipeline started =====
+[2026-07-09 18:48:48,134] 77 root - INFO - Starting data ingestion
+[2026-07-09 18:48:48,319] 84 root - INFO - Raw weather data saved at data\raw\weather_raw.csv
+[2026-07-09 18:48:48,753] 117 root - INFO - Temperature features saved at data\processed\temperature_features.csv
+[2026-07-09 18:48:54,992] 59 root - INFO - Temperature model -> RMSE: 1.615, MAE: 1.287, R2: 0.900
+[2026-07-09 18:48:55,053] 28 root - INFO - ===== Temperature Training Pipeline completed. Metrics: {'rmse': 1.6145775886070066, 'mae': 1.2873532809771022, 'r2': 0.9001791586093193} =====
