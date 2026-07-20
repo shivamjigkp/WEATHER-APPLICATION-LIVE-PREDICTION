@@ -1,4 +1,5 @@
-# Weather Intelligence App
+# Weather Intelligence App  link https://weather-app-react-mu-two.vercel.app
+link of server https://weather-application-live-prediction.onrender.com
 
 A weather platform that goes beyond simple "current weather" lookup by adding
 three Machine Learning powered features on top of the existing React weather
